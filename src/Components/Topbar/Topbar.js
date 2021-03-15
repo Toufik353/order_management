@@ -47,7 +47,7 @@ function Topbar(props) {
             {/* <button onClick={HandleSearchClick}>search</button> */}
             {/* <h2 onClick={HandleLogout}>Logout</h2> */}
             {
-                logout === true ? <p className={JSON.parse(localStorage.getItem("loginStat")) === false ? classes.DispNo : classes.Disp}>Logout</p> : <Link to="/" onClick={HandleLogout}>Logout </Link>
+                logout === true ? <p className={JSON.parse(localStorage.getItem("loginStat")) === false ? classes.DispNo : classes.Disp}>Logout</p> : <Link to="/" onClick={HandleLogout} style={{ color: "white", textDecoration: "none", marginRight: "30px" }}>Logout </Link>
             }
 
             {/*  {

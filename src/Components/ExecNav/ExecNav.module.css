@@ -13,4 +13,16 @@ button{
     color: white;
     border:none;
     outline: none;
+    padding: 10px;
+}
+
+.BackColor{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(114, 114, 22);
+    color: white;
+    border:none;
+    outline: none;  
+    padding: 10px;
+   
 }

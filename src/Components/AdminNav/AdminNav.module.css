@@ -15,6 +15,18 @@
     border: none;
     outline: none;
     color: white;
-    border:1px solid black
+   padding: 10px;
 
+}
+
+.ButtonColor{
+    height:35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #03234A;
+    border: none;
+    outline: none;
+    color: white;
+   padding: 10px;
+   background-color: #727216 ;
 }

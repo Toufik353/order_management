@@ -1,6 +1,6 @@
 .Form{
     width:450px;
-    border:1px solid black;
+    box-shadow: 2px 4px 4px #03234A;
     margin-left:100px
 }
 
